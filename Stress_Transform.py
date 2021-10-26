@@ -95,6 +95,7 @@ stress_cube = StressState(stress_tensor)
 
 stress_cube.stress_transform(orientation_matrix)
 
+scene = canvas()
 
 box(pos=vector(0,0,0), opacity=.3)
 arrow(pos=vector(0,0,0), axis=vector(1,0,0), shaftwidth = .03, opacity=.3)
